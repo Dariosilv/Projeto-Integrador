@@ -211,17 +211,18 @@ html, body{
 .box-icone{
 	width: 80px;
 	height: 80px;
-	border: 2px solid #FF4F4F;
-	border-radius: 10px;
+	border: 2px solid #3540a5;
+	border-radius: 8px;
 	text-align: center;
 }
 
 .box-icone img{
-	margin-top: 25px;
+	margin-top: 1px;
+	
 }
 
 .box-icone__titulo{
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 600;
 	margin: 20px 0;
 }
@@ -231,18 +232,31 @@ html, body{
 	color: #5C5040;
 	line-height: 22px;
 }
+.image_teste{
+	width: 74px;
+	height: 74px;
+	border: 2px solid #3540a5;
+	border-radius: 8px;
+	text-align: center;
 
+}
+.image_teste img{
+	
+	margin-top: 24px;
+
+}
 .box-wrapper{
 	width: 25%;
 	float: left;
+	margin-top: 1px;
 }
 
 .box-icone--red{
-	background: #FF4F4F;
+	background: #ffffff;
 }
-
 .icones{
 	padding: 200px 0 50px 0;
+	
 }
 
 #about{
@@ -383,7 +397,7 @@ html, body{
 
 .testemunha-profissao{
 	font-size: 14px;
-	color: #FF4F4F;
+	color: #3554b8;
 	font-weight: 600;
 	display: block;
 	margin: 10px 0 20px 0;
@@ -489,6 +503,8 @@ html, body{
 
 .posts{
 	padding-top: 80px;
+	background-color: #3554b8;
+
 }
 
 .post-box{
@@ -505,7 +521,7 @@ html, body{
 }
 
 .post__subtitle{
-	color: #5D523D;
+	color: #111111;
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -547,6 +563,7 @@ html, body{
 
 .newsletter{
 	padding-top: 100px;
+	background-color:#3554b8 ;
 }
 
 .newsletter__box{
@@ -684,7 +701,7 @@ html, body{
 
 .pagination__link.ativo,
 .pagination__link:hover{
-		color: #FF4F4F;
+		color: #3554b8;
 }
 
 .footer{
@@ -712,7 +729,7 @@ html, body{
 }
 
 .footer__link:hover{
-	color: #FF4F4F;
+	color: #3554b8;
 }
 
 .footer__menu-item{
@@ -754,7 +771,7 @@ html, body{
 }
 
 .footer__autor a{
-	color: #F65954;
+	color: #3554b8;
 }
 
 .swiper-pagination{
@@ -791,3 +808,49 @@ html, body{
 .apresentacao_video{
 	max-width: 45%;
 }
+
+.footer-logo-bar {
+	background-color: #3554b8;
+	padding: 1rem 0;
+  }
+  
+.footer-logo-bar__container {
+	display: flex;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	padding: 0.5rem;
+}
+  
+.footer-logo-bar__item {
+	margin-right: 1rem;
+}
+  
+.footer-logo-bar__item img {
+	height: 50px;
+}
+.foto-ceo img{
+	margin: 0%;
+	padding: 0%;
+	border: 0% ;
+
+}
+
+:root {
+	--background-color: #fff;
+	--text-color: #000;
+	--link-color: #00f;
+  }
+  
+  .dark-theme {
+	--background-color: #000;
+	--text-color: #fff;
+	--link-color: #0ff;
+  }
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+  }
+  
+  a {
+	color: var(--link-color);
+  }
